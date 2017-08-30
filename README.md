@@ -1,4 +1,5 @@
-# PixelSpirit Deck of carts
+# [PixelSpirit Deck](https://pixelspiritdeck.com/)
+by [Patricio Gonzalez Vivo](http://patriciogonzalezvivo.com/)
 
 Each Pixel Spirit card presents a visual element together with the GLSL shader code that generates it. Ultimately, these elements can be reused and combined to compose an infinite visual language. This deck is a tool for learning, a library, and an oracle.
 
