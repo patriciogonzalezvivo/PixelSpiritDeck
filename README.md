@@ -11,7 +11,7 @@ The cards are ordered as an unfolding continuum that goes from simplicity to com
 
 ![header](imgs/library_cards.png)
 
-![loop](imgs/loop.jpg)
+![loop](imgs/loop.png)
 
 ## How to get them? How to use them? 
 
@@ -37,7 +37,7 @@ The cards are ordered as an unfolding continuum that goes from simplicity to com
     glslViewer 00-elements/048-enlightenment.frag
 ```
 
-![loop](imgs/loop.jpg)
+![loop](imgs/loop.png)
 
 ## Author
 
@@ -45,7 +45,7 @@ The cards are ordered as an unfolding continuum that goes from simplicity to com
 
 [github](https://github.com/patriciogonzalezvivo) | [twitter](http://https://twitter.com/patriciogv) | [website](http://patricio.io)
 
-![loop](imgs/loop.jpg)
+![loop](imgs/loop.png)
 
 ## Acknowledges
 
