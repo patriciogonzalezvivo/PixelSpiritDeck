@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+renders/*.png
+renders/imgs/*.png
+renders/pdfs/*.pdf
+renders/ais/*.ai
+renders/cmky/*.png
