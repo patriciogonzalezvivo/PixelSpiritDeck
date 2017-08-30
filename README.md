@@ -4,6 +4,10 @@ Each Pixel Spirit card presents a visual element together with the GLSL shader c
 
 The cards are ordered as an unfolding continuum that goes from simplicity to complexity, from darkness to light, so they can be learned and memorized easily. Through this progression, the cards present new functions, creating a library of functions that can be reused and combined like a portable book of spells. Within the 50 cards of this deck you will find the 22 major arcana, the ancestral archetypes of the traditional Tarot deck: the wisdom of these powerful cards will guide you.
 
+## How to get them
+
+[Visit PixelSpiritDeck.com](https://pixelspiritdeck.com/)
+
 ## How to compile them
 
 1. Install [glslViewer](http://patriciogonzalezvivo.com/2015/glslViewer/) following the [instructions from here](https://github.com/patriciogonzalezvivo/glslViewer#install)
