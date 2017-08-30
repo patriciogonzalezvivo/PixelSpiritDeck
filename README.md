@@ -1,6 +1,6 @@
 # PixelSpirit Deck of carts
 
-1. Install glslViewer following the [instructions from here](https://github.com/patriciogonzalezvivo/glslViewer)
+1. Install [glslViewer](http://patriciogonzalezvivo.com/2015/glslViewer/) following the [instructions from here](https://github.com/patriciogonzalezvivo/glslViewer#install)
 
 2. Compile any of the cards by:
 
@@ -16,3 +16,6 @@
     glslViewer 00-elements/048-enlightenment.frag
 ```
 
+## Author
+
+[Patricio Gonzalez Vivo](http://https://twitter.com/patriciogv): [github](https://github.com/patriciogonzalezvivo) | [twitter](http://https://twitter.com/patriciogv) | [website](http://patricio.io)
