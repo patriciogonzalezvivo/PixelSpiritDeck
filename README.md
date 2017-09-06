@@ -13,13 +13,13 @@ The cards are ordered as an unfolding continuum that goes from simplicity to com
 
 ![loop](imgs/loop.png)
 
-## How to get them? How to use them? 
+## Get and use the deck every day
 
-[Visit PixelSpiritDeck.com](https://pixelspiritdeck.com/)
+[Visit PixelSpiritDeck.com there you can buy the deck and learn how to use them](https://pixelspiritdeck.com/)
 
 ![cards](imgs/cards-01.jpg)
 
-## How to compile them?
+## Compile the cards
 
 1. Install [glslViewer](http://patriciogonzalezvivo.com/2015/glslViewer/) following the [instructions from here](https://github.com/patriciogonzalezvivo/glslViewer#install)
 
@@ -35,6 +35,18 @@ The cards are ordered as an unfolding continuum that goes from simplicity to com
     glslViewer 00-elements/046-the_world.frag
     glslViewer 00-elements/047-the_fool.frag
     glslViewer 00-elements/048-enlightenment.frag
+```
+
+If you want to make PNG images of them you can do something like:
+
+```
+    glslViewer 00-elements/045-inner_truth.frag -s 1 -w 448 -h 748 -o innerthruth.png
+```
+
+You can also compile them and watch the one by one for 5 seconds like this:
+
+```
+    find . -name '*.frag' -exec glslViewer -s 5 -w 448 -h 748 {} \;  
 ```
 
 ![loop](imgs/loop.png)
