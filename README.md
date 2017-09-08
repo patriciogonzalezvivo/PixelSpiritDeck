@@ -49,6 +49,10 @@ You can also compile them and watch the one by one for 5 seconds like this:
     find . -name '*.frag' -exec glslViewer -s 5 -w 448 -h 748 {} \;  
 ```
 
+## Remix them
+
+The cards license allows you to use them how ever you want, please don't forget to give proper credits. Also and more importantly I would love to see what you do with it! Share what you make to @pixelspiritdeck! I'm happy to broadcast it and share with others!
+
 ![loop](imgs/loop.png)
 
 ## Author
