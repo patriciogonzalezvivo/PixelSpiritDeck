@@ -17,6 +17,8 @@ The cards are ordered as an unfolding continuum that goes from simplicity to com
 
 [Visit PixelSpiritDeck.com there you can buy the deck and learn how to use them](https://pixelspiritdeck.com/)
 
+If you are thinking on going through the cards to teach yourself shaders consider using [the following online editor: editor.pixelspiritdeck.com/](https://editor.pixelspiritdeck.com/)
+
 ![cards](imgs/cards-01.jpg)
 
 ## Compile the cards
