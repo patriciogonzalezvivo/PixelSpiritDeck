@@ -28,8 +28,8 @@
 
 #ifndef FNC_VESICASDF
 #define FNC_VESICASDF
-#include "../lib/circleSDF.glsl"
-float vesicaSDF (vec2 st, float w) {
+#include "circleSDF.glsl"
+float vesicaSDF(vec2 st, float w) {
     vec2 offset = vec2(w*.5,0.);
     return max( circleSDF(st-offset),
                 circleSDF(st+offset));
