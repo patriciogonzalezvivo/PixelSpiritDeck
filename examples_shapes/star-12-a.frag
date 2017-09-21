@@ -16,7 +16,7 @@ void main() {
              vec2(st.x,st.y*(u_resolution.y/u_resolution.x)-(u_resolution.y*.5-u_resolution.x*.5)/u_resolution.x), 
              step(u_resolution.x,u_resolution.y));
     //START
-    color += fill(starSDF(st, 7, .3), .5);
+    color += fill(starSDF(st, 12, .375), .75);
     //END
     gl_FragColor = vec4(color,1.);
 }
