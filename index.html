@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PixelSpirit</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+    <script type="text/javascript" src="./src/three.min.js"></script>
+    <script type="text/javascript" src="./src/TrackballControls.js"></script>
+    <script type="text/javascript" src="./src/fetch.js"></script>
+    <script type="text/javascript" src="./src/marked.js"></script>
+    <script type="text/javascript" src="./src/instafeed.min.js"></script>
+
+    <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+
+</head>
+<body>
+    <canvas id="canvas3D" width="500" height="500"></canvas>
+    <div id="content">
+        <div id="header">
+            <div class="top_bar">
+                <span class='menu_item'><a href="#shop">Shop</a></span>
+                <span class='menu_item'><a href='#collective-call'> Collective_Call</a></span> 
+                <span class='menu_item'><a href="#author">Author</a></span> 
+                <span class='menu_item'><a href="#contact">Contact</a></span> 
+               
+            </div>
+<!--             <span class='logo'><a href="http://pixelspiritdeck.com" target="_blank"><img src="./imgs/web-logo.png"></a></span> -->
+                <span class='logo2'><img src="./imgs/web-logo-2.png"></span>
+        </div>
+
+        <div id="about" class="billboard"> </div>
+
+        <div id="glsl_editor"></div>
+
+        <div class="footer">
+            <span><a href="https://twitter.com/intent/follow?screen_name=pixelspiritdeck" target="_blank"><img class='icon' src="./imgs/icons/twitter.png"></a></span> <span><a href="https://instagram.com/pixelspiritdeck/" target="_blank"><img class='icon' src="./imgs/icons/instagram.png"></a></span>
+        </div>
+        <div class="footer">
+            <span><a href="http://patriciogonzalezvivo.com" target="_blank"><p>©2017 Patricio Gonzalez Vivo</p></a></span>
+        </div>
+    </div>    
+
+    <script type="text/javascript" src="./src/main.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-18824436-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</script>
+</body>
+</html>
