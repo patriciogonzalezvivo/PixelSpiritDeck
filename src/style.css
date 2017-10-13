@@ -15,8 +15,9 @@ body {
 #canvas3D{
     width: 100vw;
     height: 100vh;
-    display: block;
-    position: fixed;
+    /*display: block;*/
+    /*position: fixed;*/
+    position: absolute;
     top: 0;
     left: 0;
     z-index: -9999;
@@ -256,4 +257,31 @@ p {
 
 #instafeed a {
     margin-left: 8px;
+}
+
+@media only screen and (max-width: 500px) {
+    .top_bar {
+        height: 35px;
+        line-height: 20px;
+    }
+
+    .menu_item {
+        padding-right: 20px;
+    }
+
+    #gallery {
+        max-width: 100%;
+    }
+
+    #instafeed {
+        width: 100%;
+    }
+
+    #instafeed a {
+        margin-left: 2px;
+    }
+
+    #instafeed img {
+        width: 40px;
+    }
 }
