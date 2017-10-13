@@ -269,6 +269,10 @@ p {
         padding-right: 20px;
     }
 
+    .newsletter {
+        width: 100%;
+    }
+
     #gallery {
         max-width: 100%;
     }
