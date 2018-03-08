@@ -61,7 +61,7 @@ The cards license allows you to use them how ever you want, please don't forget 
 
 [Patricio Gonzalez Vivo](http://https://twitter.com/patriciogv): (1982, Buenos Aires, Argentina) is an artist and developer. He explores interstitial spaces between organic and synthetic, analog and digital, individual and collective. In his work he uses code as an expressive language with the intention of developing a better together.
 
-[github](https://github.com/patriciogonzalezvivo) | [twitter](http://https://twitter.com/patriciogv) | [website](http://patricio.io)
+[github](https://github.com/patriciogonzalezvivo) | [twitter](https://twitter.com/patriciogv) | [website](http://patricio.io)
 
 ![loop](imgs/loop.png)
 
