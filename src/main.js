@@ -347,14 +347,18 @@
                 moneyFormat: '%24%7B%7Bamount%7D%7D',
                 options: {
 "product": {
+    "buttonDestination":"checkout",
     "variantId": "all",
-    "width": "240px",
+    "width": "380px",
     "contents": {
       "imgWithCarousel": false,
       "variantTitle": false,
       "description": false,
       "buttonWithQuantity": false,
       "quantity": false
+    },
+    "text": {
+        "button":"PREORDER NOW"
     },
     "styles": {
       "product": {
