@@ -4,7 +4,7 @@ The cards are ordered as an unfolding continuum that goes from simplicity to com
 
 ### Shop
 
-Get your PixelSpirit Deck 3rd Edition, PREORDER NOW! The shop will be open until the 1st of May. Shipping will start in June, please plan your shipping address accordingly!
+Get your PixelSpirit Deck 3rd Edition NOW! Shop will be open until the 1st of May and shipping will start in June (please have in mind when you plan your shipping address).
 
 <div id="shop" class="centering-panel">
     <div class="centering-element" id='product-component-d9b6f93439a'></div>
