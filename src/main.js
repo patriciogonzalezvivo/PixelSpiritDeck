@@ -358,7 +358,7 @@
       "quantity": false
     },
     "text": {
-        "button":"PREORDER NOW"
+        "button":"ORDER ONE"
     },
     "styles": {
       "product": {
