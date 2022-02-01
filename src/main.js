@@ -61,14 +61,16 @@
         var flareColor = new THREE.Color( 0xffffff );
         flareColor.setHSL( h, s, l + 0.5 );
 
-        var lensFlare = new THREE.LensFlare( textureFlare0, 700, 0.0, THREE.AdditiveBlending, flareColor );
-        lensFlare.add( textureFlare2, 512, 0.0, THREE.AdditiveBlending );
-        lensFlare.add( textureFlare2, 512, 0.0, THREE.AdditiveBlending );
-        lensFlare.add( textureFlare2, 512, 0.0, THREE.AdditiveBlending );
-        lensFlare.add( textureFlare3, 60, 0.6, THREE.AdditiveBlending );
-        lensFlare.add( textureFlare3, 70, 0.7, THREE.AdditiveBlending );
-        lensFlare.add( textureFlare3, 120, 0.9, THREE.AdditiveBlending );
-        lensFlare.add( textureFlare3, 70, 1.0, THREE.AdditiveBlending );
+        var pct = 0.65;
+
+        var lensFlare = new THREE.LensFlare( textureFlare0, 700 * pct, 0.0, THREE.AdditiveBlending, flareColor );
+        lensFlare.add( textureFlare2, pct * 512, 0.0, THREE.AdditiveBlending );
+        lensFlare.add( textureFlare2, pct * 512, 0.0, THREE.AdditiveBlending );
+        lensFlare.add( textureFlare2, pct * 512, 0.0, THREE.AdditiveBlending );
+        lensFlare.add( textureFlare3, pct * 60, 0.6, THREE.AdditiveBlending );
+        lensFlare.add( textureFlare3, pct * 70, 0.7, THREE.AdditiveBlending );
+        lensFlare.add( textureFlare3, pct * 120, 0.9, THREE.AdditiveBlending );
+        lensFlare.add( textureFlare3, pct * 70, 1.0, THREE.AdditiveBlending );
         lensFlare.customUpdateCallback = lensFlareUpdateCallback;
         lensFlare.position.copy( light.position );
         scene.add( lensFlare );
@@ -173,13 +175,15 @@
         scene = new THREE.Scene();
 
         header = document.getElementById('header');
-        header.style.height = (window.innerHeight*.75) + 'px';
+        header.style.height = (window.innerHeight*.20) + 'px';
 
         canvas3D = document.getElementById('canvas3D');
         mouse = new THREE.Vector2();
         // raycaster = new THREE.Raycaster();
         
         camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
+        camera.position.x = -100;
+        camera.position.y = -50;
         camera.position.z = 750;
 
         objectWrapper = new THREE.Object3D();
@@ -208,7 +212,7 @@
             texture.magFilter = THREE.NearestFilter;
         }  );
 
-        addLightFlare( 0.55, 0.9, 0.5, 500, 300, -1000 );
+        addLightFlare( 0.55, 0.9, 0.75, 350, 650, -1000 );
         addLight( 0.7, 0.8, 0.9, -100, -100, 500 );
         addLight( 1., 1.0, 1.0, 0, 0, 500 );
 
@@ -282,7 +286,7 @@
         camera.aspect = window.innerWidth / window.innerHeight;
         camera.updateProjectionMatrix();
         renderer.setSize( window.innerWidth, window.innerHeight );
-        header.style.height = (window.innerHeight*.75) + 'px';
+        header.style.height = (window.innerHeight*.20) + 'px';
     }
 
     function onScroll() {
@@ -296,7 +300,7 @@
         var totalWidth = document.documentElement.clientWidth;
         var totalHeight = document.documentElement.clientHeight;
         controls.target.x = ((e.clientX/totalWidth)*100)-50;
-        camera.position.y = -((e.clientY/totalHeight)*100);
+        camera.position.y = -5-((e.clientY/totalHeight)*100);
     }
 
     function onHash() {
@@ -358,7 +362,7 @@
       "quantity": false
     },
     "text": {
-        "button":"ORDER ONE"
+        "button":"BUY NOW"
     },
     "styles": {
       "product": {
