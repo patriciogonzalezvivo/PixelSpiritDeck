@@ -18,17 +18,8 @@
                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
         </style>
 
-<div id="mc_embed_signup">
-    <form action="//pixelspiritdeck.us15.list-manage.com/subscribe/post?u=a45f450f6faf0e689e8bafdf6&amp;id=4969949bd2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-            <label for="mce-EMAIL">Subscribe for updates. </label>
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a45f450f6faf0e689e8bafdf6_4969949bd2" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-        </div>
-    </form>
-</div>
+<div id="fd-form-623357787e7ec064e82a1d1e"></div>
+
 <span><a href="https://twitter.com/intent/follow?screen_name=pixelspiritdeck" target="_blank"><img class='icon' src="./imgs/icons/twitterb.png"></a></span> <span><a href="https://instagram.com/pixelspiritdeck/" target="_blank"><img class='icon' src="./imgs/icons/instagramb.png"></a></span>
 </div>
     
@@ -155,12 +146,6 @@ Each card refers to an archetype: a luminous symbolic structure that may resonat
 
 ![](./imgs/loop.png)
 
-<!--## Gallery
-
-<div id="gallery"><div id="instafeed"></div></div>
-
-![](./imgs/loop.png)
--->
 
 ### Author
 
@@ -193,23 +178,7 @@ Also thanks to [DailyMinimal.com](http://www.dailyminimal.com/) and [Maria Linar
 -->
 
 <div id="contact">
-    <!-- Begin MailChimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <div id="mc_embed_signup">
-    <form action="//pixelspiritdeck.us15.list-manage.com/subscribe/post?u=a45f450f6faf0e689e8bafdf6&amp;id=4969949bd2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-        <label for="mce-EMAIL">Subscribe for updates.</label>
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a45f450f6faf0e689e8bafdf6_4969949bd2" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-        </div>
-    </form>
-    </div>
-    <!--End mc_embed_signup-->
+    
+<div id="fd-form-623374b3e4da3a4464c3094b"></div>
+
 </div>

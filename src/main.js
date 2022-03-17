@@ -37,12 +37,16 @@
             if (window.location.hash !== '') {
                 onHash();
             }
-            var feed = new Instafeed({
-                get: 'user',
-                userId: '4493247470',
-                accessToken: '4493247470.1677ed0.3eba8189d3c241d7ac0080759ffdc114'
+
+            window.fd('form', {
+                formId: '623357787e7ec064e82a1d1e',
+                containerEl: '#fd-form-623357787e7ec064e82a1d1e'
             });
-            feed.run();
+
+            window.fd('form', {
+                formId: '623374b3e4da3a4464c3094b',
+                containerEl: '#fd-form-623374b3e4da3a4464c3094b'
+            });
         })
 
     function addLight( h, s, l, x, y, z ) {

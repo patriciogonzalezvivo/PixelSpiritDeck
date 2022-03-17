@@ -9,7 +9,28 @@
     <script type="text/javascript" src="./src/TrackballControls.js"></script>
     <script type="text/javascript" src="./src/fetch.js"></script>
     <script type="text/javascript" src="./src/marked.js"></script>
-    <script type="text/javascript" src="./src/instafeed.min.js"></script>
+
+    <script>
+        (function(w, d, t, h, s, n) {
+            w.FlodeskObject = n;
+            var fn = function() {
+                (w[n].q = w[n].q || []).push(arguments);
+            };
+            w[n] = w[n] || fn;
+            var f = d.getElementsByTagName(t)[0];
+            var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+            var sm = d.createElement(t);
+            sm.async = true;
+            sm.type = 'module';
+            sm.src = h + s + '.mjs' + v;
+            f.parentNode.insertBefore(sm, f);
+            var sn = d.createElement(t);
+            sn.async = true;
+            sn.noModule = true;
+            sn.src = h + s + '.js' + v;
+            f.parentNode.insertBefore(sn, f);
+        })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+    </script>
 
     <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
@@ -60,6 +81,7 @@
       ga('create', 'UA-18824436-3', 'auto');
       ga('send', 'pageview');
     </script>
+
 </script>
 </body>
 </html>
