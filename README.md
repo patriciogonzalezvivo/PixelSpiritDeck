@@ -149,11 +149,11 @@ Each card refers to an archetype: a luminous symbolic structure that may resonat
 
 ### Author
 
-[**Patricio Gonzalez Vivo**](http://patriciogonzalezvivo.com) (1982, Buenos Aires, Argentina) is an artist and developer. He explores interstitial spaces between organic and synthetic, analog and digital, individual and collective. In his work he uses code as an expressive language with the intention of developing a better together. <a href="https://twitter.com/intent/follow?screen_name=patriciogv"><img src="./imgs/icons/twitterb.png" width="32" class="icon"/></a>  <a href="https://www.instagram.com/patriciogonzalezvivo/" target="_blank"><img class='icon' width="32" src="./imgs/icons/instagramb.png"></a>  <a href="https://github.com/patriciogonzalezvivo" target="_blank"><img src="./imgs/icons/github.png" width="32" class="icon"/></a>
+[**Patricio Gonzalez Vivo**](http://patriciogonzalezvivo.com) (1982, Buenos Aires, Argentina) is an artist and developer. He explores interstitial spaces between organic and synthetic, analog and digital, individual and collective. In his work he uses code as an expressive language with the intention of developing a better together. <a rel="me" href="https://merveilles.town/@patricio" target="_blank"><img src="/images/icons/mastodon.png" width="32" class="icon"/></a>  <a href="https://twitter.com/intent/follow?screen_name=patriciogv"><img src="./imgs/icons/twitterb.png" width="32" class="icon"/></a>  <a href="https://www.instagram.com/patriciogonzalezvivo/" target="_blank"><img class='icon' width="32" src="./imgs/icons/instagramb.png"></a>  <a href="https://github.com/patriciogonzalezvivo" target="_blank"><img src="./imgs/icons/github.png" width="32" class="icon"/></a>
 
 
 ![](./imgs/loop.png)
-
+ 
 
 ### Acknowledgments
 
