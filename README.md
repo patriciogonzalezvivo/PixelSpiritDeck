@@ -55,7 +55,7 @@ You can also compile them and watch the one by one for 5 seconds like this:
 
 Patricio Gonzalez Vivo hold all copyrights (c) 2017, on all the cards codes. You cannot host, display, distribute or share this Work in any form, including physical and digital. You cannot use this Work in any commercial or non-commercial product, website or project. You cannot sell this Work and you cannot mint an NFTs of it.
 
-That said the functions under the folder `lib/` have MIT License which allows you to use them how ever you want, just don't forget to give proper credits and link to this repository. Also and more importantly I would love to see what you do with it! Share what you make to @pixelspiritdeck!
+That said the functions under the folder `lib/` are now part of the [LYGIA shader library](https://lygia.xyz) under the double license: [Propserity License](https://github.com/patriciogonzalezvivo/lygia/blob/main/LICENSE.md) and [the Patron License](https://lygia.xyz/license) for sponsors and contributors. Also and more importantly I would love to see what you do with it! Share what you make to @pixelspiritdeck!
 
 ![loop](imgs/loop.png)
 
