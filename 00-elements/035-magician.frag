@@ -23,13 +23,7 @@ uniform vec2 u_resolution;
 #include "../lib/stroke.glsl"
 #include "../lib/circleSDF.glsl"
 #include "../lib/flip.glsl"
-
-//GLOBAL_START
-vec3 bridge(vec3 c,float d,float s,float w) {
-    c *= 1.-stroke(d,s,w*2.);
-    return c + stroke(d,s,w);
-}
-//GLOBAL_END
+#include "../lib/bridge.glsl"
 
 void main() {
     vec3 color = vec3(0.);
